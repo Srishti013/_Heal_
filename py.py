@@ -9,7 +9,7 @@ TEXT_COLOR = "white"
 FONT = "Helvetica 14"
 FONT_BOLD = "Helvetica 13 bold"
 
-def start_mental_health_chat():
+def start_physical_health_chat():
         app = ChatApplication()
         app.run()
 
