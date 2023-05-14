@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import ImageTk, Image
-from physical_health_chatbot import start_physical_chatbot
+from py import start_physical_health_chat
 from mental_app import start_mental_health_chat
     
 
@@ -38,7 +38,7 @@ class HEAL:
 
         # Create buttons for chatbot selection
         mental_button = tk.Button(self.root, text="Mental Health Chatbot", command= start_mental_health_chat)
-        physical_button = tk.Button(self.root, text="Physical Health Chatbot", command=start_physical_chatbot)
+        physical_button = tk.Button(self.root, text="Physical Health Chatbot", command=start_physical_health_chat)
         mental_button.pack(pady=10)
         physical_button.pack(pady=10)
 
