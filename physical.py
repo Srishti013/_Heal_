@@ -497,6 +497,7 @@ def get_response(inp):
         #create patient symp list
         all_sym=[col_dict[psym1],col_dict[psym2]]
         #predict possible diseases
+        knn_clf = joblib.load('model/knn.pkl')
         result,sym=knn_clf.predict(OHV(all_sym,all_symp_col)),all_sym
         if result == None :
             i=3
@@ -530,6 +531,9 @@ def get_response(inp):
             ans=inp
             if ans!="yes":
                 return  "!!!!! THANKS FOR YOUR VISIT :) !!!!!! "
+            else:
+                i=1
+                return "What is the main symptom you are experiencing?"
 
     
 
