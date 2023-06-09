@@ -20,9 +20,9 @@ before consulting a doctor
 * Data used in Physical Symptom Assessment chatbot, we have used an open-source
 dataset from online source consisting of three .csv files. These files contain the description of diseases, precautions and severity of Symptom.
 
-![Symp_sev](Symp_sev.png){:width="300px" height="200px"}
-![Symp_sev](symp_prec.png){:width="300px" height="200px"}
-![symp_desc](symp_desc.png){:width="300px" height="200px"}
+![Symp_sev](Symp_sev.png)
+![Symp_sev](symp_prec.png)
+![symp_desc](symp_desc.png)
 
 * Data used in Mental Conversational model, we have personally generated simulated
 conversation within the main file. The goal of data production was to provide plausible dialogue situations that included a variety of user interactions and mental health
