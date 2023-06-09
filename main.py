@@ -1,5 +1,4 @@
 import tkinter as tk
-from PIL import ImageTk, Image
 from py import start_physical_health_chat
 from mental_app import start_mental_health_chat
     
