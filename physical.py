@@ -518,13 +518,13 @@ def get_response(inp):
     elif i==4:
         an = inp
         if calc_condition(sym,int(an))==1:
-                i==5
+                i=5
                 return "you should take the consultation from doctor" + '\n' + "do you need another medical consultation (yes or no)? "
         else : 
                 st = 'Take following precautions : '
                 for e in precautionDictionary[result[0]]:
                     st = st + '\n'+ e
-                i==5
+                i=5
                 return st + '\n' + "do you need another medical consultation (yes or no)? "
     
     elif i==5:
@@ -534,14 +534,4 @@ def get_response(inp):
             else:
                 i=1
                 return "What is the main symptom you are experiencing?"
-
-    
-
-#knn_clf=joblib.load('model/knn.pkl')  
-
-#chat_sp()
-
-
-
-
 
