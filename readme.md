@@ -90,7 +90,7 @@ brand-new data points. The KNN classification depends on a distance metric. To c
 Here we see the flow with which HEAL interacts with the users and provides response
 to their query.
 
-![system](system.png)
+![system](System.png)
 
 ## GUI Output
 
@@ -144,5 +144,6 @@ also make user’s experience easy
 
 ## Contributors
 
+[<img src="https://github.com/Srishti013.png" width="50px" alt="Srishti Ahlawat" />](https://github.com/Srishti013)
 [<img src="https://github.com/AasthaMishra05.png" width="50px" alt="Aastha Mishra" />](https://github.com/jAasthaMishra05)
 [<img src="https://github.com/Akshita-Gupta-0810.png" width="50px" alt="Akshita-Gupta-0810" />](https://github.com/Akshita-Gupta-0810)
